@@ -50,7 +50,10 @@
   font-weight: 600;
   font-size: 18px;
 }
-
+.profile-box button:hover {
+  background: #f7e8d4;
+  color: #c18569;
+}
 .profile-box h3 {
   font-size: 29px;
   margin-top: 20px;
@@ -59,4 +62,9 @@
 
 .social-media {
   cursor: pointer;
+}
+
+.btn--display {
+  width: 100%;
+  display: inline-block;
 }
